@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="calculator.css">
+		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	</head>
+	<body>
+		<div id="body">
+		  <div id="screen">
+		  </div>
+		  <div class="buttonRowOne">
+		    <button onClick="numberPress('7')">7</button>
+		    <button onClick="numberPress('8')">8</button>
+		    <button onClick="numberPress('9')">9</button>
+		    <button onClick="operatorPress('÷')">÷</button>
+		  </div>
+		  <div class="buttonRowTwo">
+		    <button onClick="numberPress('4')">4</button>
+		    <button onClick="numberPress('5')">5</button>
+		    <button onClick="numberPress('6')">6</button>
+		    <button onClick="operatorPress('x')">x</button>
+		  </div>
+		  <div class="buttonRowThree">
+		    <button onClick="numberPress('1')">1</button>
+		    <button onClick="numberPress('2')">2</button>
+		    <button onClick="numberPress('3')">3</button>
+		    <button onClick="operatorPress('-')">-</button>
+		  </div>
+		  <div class="buttonRowFour">
+		    <button onClick="numberPress('0')">0</button>
+		    <button onClick="dotPress()">.</button>
+		    <button onClick="allClear()">Clear</button>
+		    <button onClick="operatorPress('+')">+</button>
+		  </div>
+		  <div class="buttonRowFive">
+		    <button onClick="equals()">=</button>
+		  </div>
+		</div>
+		
+		<script type="text/javascript" src="calculator.js"></script>
+	</body>
+</html>
